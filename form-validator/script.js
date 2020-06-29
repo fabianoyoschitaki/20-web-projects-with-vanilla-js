@@ -35,6 +35,7 @@ function showSuccess(input){
 
 // check required form fields
 function checkRequired(inputArray) {
+    // high order array methods
     inputArray.forEach(input => {
         if (input.value.trim() === ''){
             // use ES6 template string instead of concatenating
